@@ -2,11 +2,18 @@ body {
     background-color: var(--main-back-color);
 }
 
+.theme-light header {
+    background-image: url("../images/cover-image-light.png");
+}
+
+.theme-dark header {
+    background-image: url("../images/cover-image-dark.png");
+}
+
 header {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url("../images/cover-image-dark.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,6 +78,10 @@ header {
     border-color: var(--h2-txt-color);
 }
 
+.header__theme-menu-button:hover {
+    border: 1px solid var(--h2-txt-color);
+}
+
 .header__title {
     position: absolute;
     top: 50%;
@@ -87,7 +98,7 @@ header {
 
 .header__text__box {
     height: 117px;
-    width: 355px;
+    width: auto;
     position: absolute;
     bottom: 66px;
     margin-left: 10px;
@@ -236,6 +247,12 @@ footer {
     }
 }
 @media (min-width: 768px) {
+
+    .rec__text {
+        top: 20px;
+        right: 48px;
+    }
+
     .grid__1024 {
         margin: 0 20px 80px;
     }
@@ -313,8 +330,8 @@ footer {
         grid-area: img5;
     }
     .rec__text::before {
-        top: 9px;
-        right: -18px;
+        top: 0;
+        right: -27px;
         z-index: 10;
     }
 
