@@ -32,8 +32,8 @@ header {
     right: -28px;
     width: 25px;
     height: 25px;
-    border-top: 2px solid var(--h2-txt-color);
-    border-right: 2px solid var(--h2-txt-color);
+    border-top: 1px solid var(--h2-txt-color);
+    border-right: 1px solid var(--h2-txt-color);
 }
 
 .rec__text::after {
@@ -172,7 +172,7 @@ h3 {
 }
 
 .last__h3 {
-    margin: 50px 10px 10px;
+    margin: 80px 10px 10px;
 }
 
 footer {
@@ -244,7 +244,7 @@ footer {
         margin: 0 20px 0;
     }
 
-    .grid__768 {
+    .grid__768:not(:nth-child(2)) {
         margin: 0 20px 80px;
         display: grid;
         grid-template-columns: 1fr 2fr;
