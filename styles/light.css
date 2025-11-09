@@ -10,11 +10,13 @@
 */
 
 :root.theme-light {
-    --main-back-color: #ffffff;
+    --main-back-color: #FFF1F7;
     --accent-color: #ff8dcb;
     --h1-txt-color: #ffc2e6;
+    --h2-txt-color: #353430;
     --main-txt-color: #353430;
-    --subtitle-txt-color: #000028;
+    --subtitle-txt-color: #353430;
+    --focus-color: #FFF1F7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -27,6 +29,6 @@
     }
 }
 /* Скрыть фоновое изображение в светлой теме (как в исходном) */
-.theme-light .header{
+.theme-light .header {
     background-image: none;
 }

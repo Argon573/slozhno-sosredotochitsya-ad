@@ -2,11 +2,13 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root{
+:root {
     --main-back-color: rgb(1, 0, 40);
     --main-txt-color: #F1B2CE;
     --h1-txt-color: #DB00FF;
+    --h2-txt-color: #FF0070;
     --subtitle-txt-color: #000028;
     --accent-color: #FF0070;
+    --focus-color: #FF0070;
     --main-txt-size: 18px;
 }
