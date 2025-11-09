@@ -326,6 +326,10 @@ footer {
     .last__h3 {
         margin: 80px 10px 10px;
     }
+
+    footer {
+        padding-top: 60px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -373,5 +377,6 @@ footer {
     .footer__title {
         font-size: 157px;
     }
+
 
 }
