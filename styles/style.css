@@ -2,14 +2,6 @@ body {
     background-color: var(--main-back-color);
 }
 
-.theme-light header {
-    background-image: url("../images/cover-image-light.png");
-}
-
-.theme-dark header {
-    background-image: url("../images/cover-image-dark.png");
-}
-
 header {
     width: 100%;
     height: 100vh;

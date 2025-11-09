@@ -20,4 +20,11 @@
         --focus-color: #FFF1F7;
         --shadow-color: #FF8DCB;
     }
+
+    header {
+        background-image: url("../images/cover-image-light.png");
+    }
+}
+.theme-light header {
+    background-image: url("../images/cover-image-light.png");
 }

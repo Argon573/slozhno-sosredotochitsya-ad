@@ -22,5 +22,13 @@
         --main-txt-size: 18px;
         --shadow-color: #FF0070;
     }
+
+    header {
+        background-image: url("../images/cover-image-dark.png");
+    }
+}
+
+.theme-dark header {
+    background-image: url("../images/cover-image-dark.png");
 }
 
