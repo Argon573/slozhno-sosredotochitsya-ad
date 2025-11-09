@@ -82,7 +82,7 @@ header {
     line-height: 83%;
     color: var(--h1-txt-color);
     white-space: wrap;
-    text-shadow: 4px 4px var(--accent-color);
+    text-shadow: 4px 4px var(--shadow-color);
 }
 
 .header__text__box {
@@ -109,8 +109,8 @@ header {
     left: 10px;
     width: 25px;
     height: 25px;
-    border-bottom: 2px solid var(--h2-txt-color);
-    border-left: 2px solid var(--h2-txt-color);
+    border-bottom: 1px solid var(--h2-txt-color);
+    border-left: 1px solid var(--h2-txt-color);
 }
 
 .main {
@@ -131,6 +131,10 @@ header {
     overflow: hidden;
 }
 
+.grid__768:nth-child(1) {
+    padding-top: 40px;
+}
+
 .grid__1024 {
     margin: 0 10px 50px;
     overflow: hidden;
@@ -142,7 +146,6 @@ header {
 
 h2 {
     font-family: IBM Plex Mono;
-    color: var(--accent-color);
     font-size: var(--main-txt-size);
     font-weight: 700;
     line-height: 23.4px;
@@ -189,8 +192,8 @@ footer {
     right: 10px;
     width: 25px;
     height: 25px;
-    border-top: 2px solid var(--accent-color);
-    border-right: 2px solid var(--accent-color);
+    border-top: 1px solid var(--h2-txt-color);
+    border-right: 1px solid var(--h2-txt-color);
 }
 
 .footer__title {
@@ -199,7 +202,7 @@ footer {
     font-size: 116px;
     line-height: 83%;
     color: var(--h1-txt-color);
-    text-shadow: 4px 4px var(--accent-color);
+    text-shadow: 4px 4px var(--shadow-color);
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -212,6 +215,7 @@ footer {
     }
 
     .header__text__box {
+        margin-right: 0;
         height: 117px;
         width: 364px;
         right: 20px;
@@ -232,10 +236,6 @@ footer {
     }
 }
 @media (min-width: 768px) {
-    .header__text__box {
-        margin-left: 50%;
-    }
-
     .grid__1024 {
         margin: 0 20px 80px;
     }
@@ -253,6 +253,10 @@ footer {
     }
     .grid__768 h2 {
         margin-top: 0;
+    }
+
+    .grid__768:nth-child(1) {
+        padding-top: 60px;
     }
 
     .to__right__column {
@@ -312,7 +316,7 @@ footer {
     .img__section img:nth-child(5) {
         grid-area: img5;
     }
-    .rec__text::before{
+    .rec__text::before {
         top: 9px;
         right: -18px;
         z-index: 10;
@@ -334,6 +338,7 @@ footer {
     }
 
     .header__text__box {
+        margin-right: 0;
         right: 20px;
         bottom: 134px;
         width: 491px;
@@ -361,7 +366,7 @@ footer {
         width: 30.7%;
     }
 
-    .img-section {
+    .img__section {
         height: 1091px;
     }
 

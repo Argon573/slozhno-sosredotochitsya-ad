@@ -17,18 +17,22 @@
     --main-txt-color: #353430;
     --subtitle-txt-color: #353430;
     --focus-color: #FFF1F7;
+    --shadow-color: #FF8DCB;
 }
 
 @media (prefers-color-scheme: light) {
     :root.theme-auto {
-        --main-back-color: #ffffff;
+        --main-back-color: #FFF1F7;
         --accent-color: #ff8dcb;
         --h1-txt-color: #ffc2e6;
+        --h2-txt-color: #353430;
         --main-txt-color: #353430;
-        --subtitle-txt-color: #000028;
+        --subtitle-txt-color: #353430;
+        --focus-color: #FFF1F7;
+        --shadow-color: #FF8DCB;
     }
 }
 /* Скрыть фоновое изображение в светлой теме (как в исходном) */
 .theme-light .header {
-    background-image: none;
+    background-image: url("../images/cover-image-light.png");
 }
