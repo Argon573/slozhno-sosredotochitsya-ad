@@ -172,7 +172,7 @@ h3 {
 }
 
 .last__h3 {
-    margin: 80px 10px 10px;
+    margin: 50px 10px 10px;
 }
 
 footer {
@@ -293,10 +293,6 @@ footer {
         gap: 20px;
     }
 
-    .last__h3 {
-        margin: 50px 20px 10px;
-    }
-
     .img__section img:nth-child(1) {
         grid-area: img1;
     }
@@ -325,6 +321,10 @@ footer {
     ung__low {
         bottom: 20px;
         left: 20px;
+    }
+
+    .last__h3 {
+        margin: 80px 10px 10px;
     }
 }
 
@@ -367,7 +367,7 @@ footer {
     }
 
     .img__section {
-        height: 1091px;
+        height: 1048px;
     }
 
     .footer__title {
