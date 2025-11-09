@@ -89,7 +89,7 @@ header {
     height: 117px;
     width: 355px;
     position: absolute;
-    top: 485px;
+    bottom: 66px;
     margin-left: 10px;
     margin-right: 10px;
     background-color: var(--accent-color);
